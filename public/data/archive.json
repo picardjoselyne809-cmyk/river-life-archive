@@ -1,0 +1,1718 @@
+{
+  "schemaVersion": 1,
+  "researchCheckedAt": "2026-09-14",
+  "spatialPrecision": "所有案例节点为区域示意",
+  "rivers": [
+    {
+      "id": "tongbo",
+      "name": "铜钵河",
+      "number": "01",
+      "type": "river",
+      "regions": "四川大竹 ↔ 重庆梁平",
+      "regionNames": [
+        "大竹县",
+        "梁平区"
+      ],
+      "anchor": [
+        107.55,
+        30.68
+      ],
+      "tags": [
+        "跨省治理",
+        "跨区域治理",
+        "污染应急",
+        "河长制协同",
+        "数字治水"
+      ],
+      "stage": "数字协同处置",
+      "summary": "同一条河的风险，如何变成两地共同的行动？",
+      "overview": {
+        "text": "发源于四川大竹，流经达州与重庆梁平。生态环境部2025年案例记载干流27.5公里，其中川渝共界河段14公里。",
+        "sources": [
+          "S02"
+        ]
+      },
+      "difficulty": {
+        "text": "跨界与共界交织，管辖权、资源投入和利益诉求不同；沿河管网与养殖设施的风险，需要两地分别核实。",
+        "sources": [
+          "S02",
+          "S01"
+        ]
+      },
+      "institution": {
+        "text": "两地建立联席会商、信息共享和联合执法机制，采用共考断面，并推进污水互接处理。共同规则为数字交办提供制度基础。",
+        "sources": [
+          "S02"
+        ]
+      },
+      "digital": {
+        "text": "断面异常触发预警，模型压缩排查范围，清单推动两地同步行动，现场核实后再反馈、销号。",
+        "sources": [
+          "S01"
+        ]
+      },
+      "conclusion": {
+        "text": "RQ1：流域连通不等于行政责任连通。RQ2：平台把共同风险转成可交办、可追踪的任务；数字协同仍依赖协议、人员与实体设施。",
+        "sources": [
+          "S01",
+          "S02"
+        ],
+        "kind": "analysis"
+      },
+      "eventIds": [
+        "tongbo-0",
+        "tongbo-1",
+        "tongbo-2"
+      ],
+      "actorIds": [
+        "lp-eco",
+        "dz-eco",
+        "housing",
+        "town",
+        "agriculture",
+        "cq-eco"
+      ],
+      "mediaIds": [],
+      "photoSourceIds": [
+        "S02"
+      ],
+      "status": "专题档案",
+      "gaps": [
+        "本河可再使用的实景与治理现场照片待补",
+        "未取得公开精确河道与事件点坐标"
+      ]
+    },
+    {
+      "id": "liangtan",
+      "name": "梁滩河",
+      "number": "02",
+      "type": "river",
+      "regions": "重庆高新区 → 沙坪坝 → 北碚",
+      "regionNames": [
+        "九龙坡区",
+        "沙坪坝区",
+        "北碚区"
+      ],
+      "anchor": [
+        106.38,
+        29.69
+      ],
+      "tags": [
+        "跨区县治理",
+        "跨区域治理",
+        "长期综合治理",
+        "河长制协同",
+        "数字治水"
+      ],
+      "stage": "长期治理与智慧监管",
+      "summary": "十年治理，为什么不能只靠一项技术？",
+      "overview": {
+        "text": "嘉陵江支流，串联重庆高新区、沙坪坝区与北碚区。地图行政底图不单列高新区，以文字说明管理空间。",
+        "sources": [
+          "S03"
+        ]
+      },
+      "difficulty": {
+        "text": "2019年沙坪坝段面临居住人口多、企业分布广、治污设施不足的问题。上下游行动必须与管网、污水厂建设衔接。",
+        "sources": [
+          "S04"
+        ]
+      },
+      "institution": {
+        "text": "2017年启动综合整治，以市级河长统筹沿线治理。2019年要求排查和补建管网、推动污水厂扩容，并统筹规划用地。",
+        "sources": [
+          "S03",
+          "S04"
+        ]
+      },
+      "digital": {
+        "text": "2026年回顾报道提及北碚排污口溯源、自动监测站与AI摄像头。这是长期工程和责任体系上的监管补强，不能把十年改善单归因于AI。",
+        "sources": [
+          "S03"
+        ]
+      },
+      "conclusion": {
+        "text": "RQ2：治理能力是叠加形成的。工程承接污水，河长协调责任，跨区共同执行，数字工具帮助发现新的异常。",
+        "sources": [
+          "S03",
+          "S04"
+        ],
+        "kind": "analysis"
+      },
+      "eventIds": [
+        "liangtan-0",
+        "liangtan-1",
+        "liangtan-2"
+      ],
+      "actorIds": [
+        "river-chief",
+        "housing",
+        "districts",
+        "operators",
+        "public"
+      ],
+      "mediaIds": [],
+      "photoSourceIds": [
+        "S03"
+      ],
+      "status": "专题档案",
+      "gaps": [
+        "本河可再使用的实景与治理现场照片待补",
+        "未取得公开精确河道与事件点坐标"
+      ]
+    },
+    {
+      "id": "puhe",
+      "name": "蒲河",
+      "number": "03",
+      "type": "river",
+      "regions": "南川 / 巴南 / 万盛 → 綦江",
+      "regionNames": [
+        "南川区",
+        "巴南区",
+        "綦江区"
+      ],
+      "anchor": [
+        106.78,
+        29.03
+      ],
+      "tags": [
+        "跨区县治理",
+        "跨区域治理",
+        "污染应急",
+        "数字治水",
+        "智能智治"
+      ],
+      "stage": "平台联动处置",
+      "summary": "发现异常之后，谁能把分散的部门组织起来？",
+      "overview": {
+        "text": "蒲河水系经南川、巴南、万盛等区域，在綦江三江汇入綦江。事件聚焦綦江区寨溪大桥断面；点位没有核实坐标。",
+        "sources": [
+          "S11",
+          "S05"
+        ]
+      },
+      "difficulty": {
+        "text": "识别水质问题与实施水电站调度分属不同工作环节。信息抵达生态环境部门后，还需组织水利、街道与基层治理中心。",
+        "sources": [
+          "S05"
+        ]
+      },
+      "institution": {
+        "text": "2021年綦江—万盛一体化规划提出流域综合治理、联合巡河与污水设施共建共享，为跨域水治理提供制度背景。",
+        "sources": [
+          "S12"
+        ]
+      },
+      "digital": {
+        "text": "2025年事件由预警和链式溯源形成线索，区治理中心组织水利部门，并通过基层治理中心直达三江街道核实。",
+        "sources": [
+          "S05"
+        ]
+      },
+      "conclusion": {
+        "text": "RQ2：数据链提供排查线索，治理链配置行动主体。两家污水厂是疑似线索，报道未公布最终归责，不能据此确认违法排污。",
+        "sources": [
+          "S05"
+        ],
+        "kind": "analysis"
+      },
+      "eventIds": [
+        "puhe-0",
+        "puhe-1",
+        "puhe-2"
+      ],
+      "actorIds": [
+        "qj-center",
+        "water",
+        "town",
+        "qj-eco",
+        "operators"
+      ],
+      "mediaIds": [],
+      "photoSourceIds": [
+        "S05"
+      ],
+      "status": "专题档案",
+      "gaps": [
+        "本河可再使用的实景与治理现场照片待补",
+        "未取得公开精确河道与事件点坐标"
+      ]
+    },
+    {
+      "id": "longxi",
+      "name": "龙溪河",
+      "number": "04",
+      "type": "river",
+      "regions": "梁平—垫江—长寿",
+      "regionNames": [
+        "梁平区",
+        "垫江县",
+        "长寿区"
+      ],
+      "anchor": [
+        107.42,
+        30.25
+      ],
+      "tags": [
+        "跨区县治理",
+        "跨区域治理",
+        "河长制协同",
+        "长期综合治理"
+      ],
+      "stage": "流域规划与基层巡河",
+      "summary": "上游的治理计划，怎样与下游的行动接起来？",
+      "overview": {
+        "text": "长江北岸一级支流，流经梁平、垫江、长寿，在长寿注入长江。",
+        "sources": [
+          "S14"
+        ]
+      },
+      "difficulty": {
+        "text": "上下游分属不同区县，沿线产业、乡村与城镇管网的问题需要共同进入治理计划。2022年报道记录了基层巡河发现园区管网老化、污水外溢的事件。",
+        "sources": [
+          "S14",
+          "S15"
+        ]
+      },
+      "institution": {
+        "text": "有关部门与三区县共同编制《龙溪河流域生态修复与治理（试点）实施方案（2017—2025年）》，统筹生态空间、产业、治理和防洪工程。",
+        "sources": [
+          "S14"
+        ]
+      },
+      "digital": {
+        "text": "本档案已核实的是巡河上报、河长办督办和园区整改；尚无足够证据把该事件描述为AI发现或自动派单。",
+        "sources": [
+          "S15"
+        ],
+        "kind": "analysis"
+      },
+      "conclusion": {
+        "text": "跨区县规划提供共同方向，基层河长把具体问题带入责任链。规划与日常巡查属于不同但相互支撑的治理层次。",
+        "sources": [
+          "S14",
+          "S15"
+        ],
+        "kind": "analysis"
+      },
+      "eventIds": [
+        "longxi-plan",
+        "longxi-pipe"
+      ],
+      "actorIds": [
+        "districts",
+        "river-chief",
+        "town",
+        "operators",
+        "public"
+      ],
+      "mediaIds": [],
+      "photoSourceIds": [
+        "S15"
+      ],
+      "status": "基础档案",
+      "gaps": [
+        "跨区会商的完整纪要",
+        "有来源的数字处置事件",
+        "授权现场照片"
+      ]
+    },
+    {
+      "id": "daqingliu",
+      "name": "大清流河",
+      "number": "05",
+      "type": "river",
+      "regions": "四川安岳、内江东兴—重庆荣昌",
+      "regionNames": [
+        "资阳市",
+        "内江市",
+        "荣昌区"
+      ],
+      "anchor": [
+        105.46,
+        29.56
+      ],
+      "tags": [
+        "跨省治理",
+        "跨区域治理",
+        "河长制协同",
+        "长期综合治理"
+      ],
+      "stage": "常态协商与联合执法",
+      "summary": "一条省界河，为什么需要十四枚公章？",
+      "overview": {
+        "text": "档案聚焦四川安岳、东兴与重庆荣昌共同参与的大清流河流域水环境保护。行政区域依据联合协商报道，不把会议参与范围等同于精确河道。",
+        "sources": [
+          "S16"
+        ]
+      },
+      "difficulty": {
+        "text": "跨界养殖、岸线治理与生态损害处置涉及两地不同部门。治理工程需要衔接，违法线索和修复责任也需要跨界协商。",
+        "sources": [
+          "S17"
+        ]
+      },
+      "institution": {
+        "text": "2024年三地政协委员与政府部门开展联合协商并签署备忘录；2025年报道记录吴家镇、石子镇合作以及跨界联合执法、赔偿磋商。",
+        "sources": [
+          "S16",
+          "S17"
+        ]
+      },
+      "digital": {
+        "text": "本轮材料支持常态合作、现场治理和联合执法，不支持将该河表述为已完成AI预测闭环。",
+        "sources": [
+          "S16",
+          "S17"
+        ],
+        "kind": "analysis"
+      },
+      "conclusion": {
+        "text": "跨界治理不只发生在污染应急时刻；生态修复、产业约束与损害赔偿也需要共同规则。",
+        "sources": [
+          "S17"
+        ],
+        "kind": "analysis"
+      },
+      "eventIds": [
+        "daqingliu-talk",
+        "daqingliu-law"
+      ],
+      "actorIds": [
+        "regional-gov",
+        "agriculture",
+        "justice",
+        "town",
+        "operators"
+      ],
+      "mediaIds": [],
+      "photoSourceIds": [
+        "S17"
+      ],
+      "status": "基础档案",
+      "gaps": [
+        "备忘录完整原文",
+        "联合行动详细时间表",
+        "开放许可实景"
+      ]
+    },
+    {
+      "id": "xiaoan",
+      "name": "小安溪",
+      "number": "06",
+      "type": "river",
+      "regions": "永川—铜梁—合川；流域涉及大足、双桥管理区域",
+      "regionNames": [
+        "永川区",
+        "铜梁区",
+        "合川区",
+        "大足区"
+      ],
+      "anchor": [
+        106.05,
+        29.85
+      ],
+      "tags": [
+        "跨区县治理",
+        "跨区域治理",
+        "长期综合治理",
+        "河长制协同"
+      ],
+      "stage": "源头整治与横向生态补偿",
+      "summary": "上游治理的投入，怎样成为上下游共同的责任？",
+      "overview": {
+        "text": "涪江右岸支流。2017年水利局概况记载正源在永川，向北流经铜梁，在合川汇入涪江。原文含历史行政名称，本页用文字保留管理区域差异。",
+        "sources": [
+          "S18"
+        ]
+      },
+      "difficulty": {
+        "text": "生活、工业和面源污染叠加，上游支流的治理会影响下游。2022年铜梁报道以沿河造纸产业整治为具体切口。",
+        "sources": [
+          "S19",
+          "S20"
+        ]
+      },
+      "institution": {
+        "text": "2021年铜梁启动流域造纸企业污染治理。2025年报道记载双桥经开区与永川、铜梁、合川签订上下游横向生态补偿协议，以水质考核连接职责。",
+        "sources": [
+          "S19",
+          "S20"
+        ]
+      },
+      "digital": {
+        "text": "已核实材料聚焦产业整治与生态补偿，没有足够证据重建单次数字预警事件。",
+        "sources": [
+          "S19",
+          "S20"
+        ],
+        "kind": "analysis"
+      },
+      "conclusion": {
+        "text": "横向生态补偿把上下游关系转化为可协商的责任安排；不能仅以某次水质变化判断单项制度的净效果。",
+        "sources": [
+          "S20"
+        ],
+        "kind": "analysis"
+      },
+      "eventIds": [
+        "xiaoan-industry",
+        "xiaoan-compensation"
+      ],
+      "actorIds": [
+        "districts",
+        "river-chief",
+        "operators",
+        "public"
+      ],
+      "mediaIds": [],
+      "photoSourceIds": [
+        "S19"
+      ],
+      "status": "基础档案",
+      "gaps": [
+        "补偿协议原文与结算规则",
+        "跨区长期同口径指标",
+        "开放许可照片"
+      ]
+    },
+    {
+      "id": "linjiang",
+      "name": "临江河",
+      "number": "07",
+      "type": "river",
+      "regions": "重庆永川—江津",
+      "regionNames": [
+        "永川区",
+        "江津区"
+      ],
+      "anchor": [
+        105.97,
+        29.27
+      ],
+      "tags": [
+        "跨区县治理",
+        "跨区域治理",
+        "长期综合治理",
+        "河长制协同",
+        "数字治水"
+      ],
+      "stage": "综合整治与智慧河长",
+      "summary": "治理一条城市河，怎样同时改变管理方式？",
+      "overview": {
+        "text": "长江一级支流。2016年市政府向永川、江津批复水体达标整治方案；本档案聚焦永川段综合治理。",
+        "sources": [
+          "S21",
+          "S22"
+        ]
+      },
+      "difficulty": {
+        "text": "城市扩张、生产生活污水与支流管网共同影响河道。治水需要设施建设、运行管理和基层巡护持续衔接。",
+        "sources": [
+          "S22"
+        ]
+      },
+      "institution": {
+        "text": "2017年永川将综合治理作为“一号民生工程”，成立指挥部并细化河段责任。2023年报道总结河长体系与网格专管员协同。",
+        "sources": [
+          "S22",
+          "S23"
+        ]
+      },
+      "digital": {
+        "text": "2023年报道记载“智慧河长”汇聚水利、环保、住建、农业数据，并将网格巡护信息纳入一张图。它不等同于已核实的巴渝治水单次污染应急事件。",
+        "sources": [
+          "S23"
+        ],
+        "kind": "fact"
+      },
+      "conclusion": {
+        "text": "数字化嵌入已有河段责任与网格队伍，使发现的问题能找到相应的人和工作环节。",
+        "sources": [
+          "S23"
+        ],
+        "kind": "analysis"
+      },
+      "eventIds": [
+        "linjiang-plan",
+        "linjiang-action",
+        "linjiang-digital"
+      ],
+      "actorIds": [
+        "districts",
+        "river-chief",
+        "housing",
+        "water",
+        "town",
+        "public"
+      ],
+      "mediaIds": [],
+      "photoSourceIds": [
+        "S22",
+        "S23"
+      ],
+      "status": "专题档案",
+      "gaps": [
+        "具体数字预警事件的完整证据链",
+        "智慧河长与巴渝治水接口资料",
+        "照片再使用授权"
+      ]
+    },
+    {
+      "id": "xinsheng",
+      "name": "新盛河（任市河）",
+      "number": "08",
+      "type": "river",
+      "regions": "重庆梁平—四川开江",
+      "regionNames": [
+        "梁平区",
+        "开江县"
+      ],
+      "anchor": [
+        107.63,
+        31.02
+      ],
+      "tags": [
+        "跨省治理",
+        "跨区域治理",
+        "河长制协同",
+        "长期综合治理"
+      ],
+      "stage": "跨界联动督察",
+      "summary": "同一条河的两份问题清单，如何一起整改？",
+      "overview": {
+        "text": "官方材料将新盛河与任市河并称，本平台合为一份档案。事件涉及重庆梁平与四川开江。",
+        "sources": [
+          "S24",
+          "S25"
+        ]
+      },
+      "difficulty": {
+        "text": "生活、工业与养殖线索分散在边界两侧，单边排查无法覆盖共同水环境问题。",
+        "sources": [
+          "S24"
+        ]
+      },
+      "institution": {
+        "text": "2020年开展联合摸排与核查，形成梁平19项、开江15项问题清单；两地以联动督察推进整改。",
+        "sources": [
+          "S24"
+        ]
+      },
+      "digital": {
+        "text": "材料记录了问题线索共享与联动清单，不应倒推为2020年已经使用后来上线的巴渝治水。",
+        "sources": [
+          "S24",
+          "S08"
+        ],
+        "kind": "analysis"
+      },
+      "conclusion": {
+        "text": "跨界的责任连接先于数字平台存在。数字治理需要延续这些协商、督察和整改安排。",
+        "sources": [
+          "S24",
+          "S25"
+        ],
+        "kind": "analysis"
+      },
+      "eventIds": [
+        "xinsheng-list",
+        "xinsheng-feedback"
+      ],
+      "actorIds": [
+        "inspectors",
+        "lp-eco",
+        "kj-eco",
+        "town",
+        "housing",
+        "operators"
+      ],
+      "mediaIds": [],
+      "photoSourceIds": [
+        "S24"
+      ],
+      "status": "基础档案",
+      "gaps": [
+        "34项清单逐项原始资料",
+        "长期跟踪记录",
+        "授权治理照片"
+      ]
+    },
+    {
+      "id": "longhe",
+      "name": "龙河",
+      "number": "09",
+      "type": "river",
+      "regions": "重庆石柱—丰都（报道涉及区域）",
+      "regionNames": [
+        "石柱土家族自治县",
+        "丰都县"
+      ],
+      "anchor": [
+        108.03,
+        29.92
+      ],
+      "tags": [
+        "跨区县治理",
+        "跨区域治理",
+        "数字治水",
+        "污染应急"
+      ],
+      "stage": "跨区域预警触达",
+      "summary": "同一条预警，如何同时抵达两地和基层？",
+      "overview": {
+        "text": "本档案聚焦2024年报道中的龙河湖海场断面预警，涉及石柱、丰都及石柱下路街道。断面没有公开核实坐标。",
+        "sources": [
+          "S08"
+        ]
+      },
+      "difficulty": {
+        "text": "识别异常之后，还需要让不同辖区、不同层级的人员同时知道并关注风险。",
+        "sources": [
+          "S08"
+        ],
+        "kind": "analysis"
+      },
+      "institution": {
+        "text": "报道记录石柱、丰都生态环境部门和下路街道工作人员同时收到平台预警短信。",
+        "sources": [
+          "S08"
+        ]
+      },
+      "digital": {
+        "text": "巴渝治水自动发送断面指标异常短信，提醒相关责任单位与人员关注水质异动。此材料没有完整公开后续处置和销号时间。",
+        "sources": [
+          "S08"
+        ]
+      },
+      "conclusion": {
+        "text": "本案可说明预警触达的跨区域、跨层级特征，不能据此声称已证实完整闭环或AI独立决策。",
+        "sources": [
+          "S08"
+        ],
+        "kind": "analysis"
+      },
+      "eventIds": [
+        "longhe-alert"
+      ],
+      "actorIds": [
+        "sz-eco",
+        "fd-eco",
+        "town"
+      ],
+      "mediaIds": [],
+      "photoSourceIds": [],
+      "status": "基础档案",
+      "gaps": [
+        "预警准确发生日期",
+        "后续排查、处置与复核记录",
+        "本河授权照片"
+      ]
+    },
+    {
+      "id": "sanxia",
+      "name": "三峡库区",
+      "number": "10",
+      "type": "region",
+      "regions": "重庆库区及上游相关省市",
+      "regionNames": [
+        "奉节县",
+        "巫山县",
+        "云阳县",
+        "万州区",
+        "忠县",
+        "丰都县"
+      ],
+      "anchor": [
+        109.47,
+        31
+      ],
+      "tags": [
+        "跨区域治理",
+        "长期综合治理"
+      ],
+      "stage": "工程与流域规划背景",
+      "summary": "从一座水库，为什么必须看到整个上游？",
+      "overview": {
+        "text": "这是一份区域历史档案，不是一条河流。2001年规划同时面向库区及上游，通知涉及湖北、重庆、四川、贵州、云南及相关部门。",
+        "sources": [
+          "S26"
+        ]
+      },
+      "difficulty": {
+        "text": "库区水环境与上游输入、城镇处理设施和产业污染有关，治理范围无法停在单一工程边界。",
+        "sources": [
+          "S27"
+        ]
+      },
+      "institution": {
+        "text": "2001年规划获批并印发，要求各地各部门制定实施计划；2008年修订本在总结前期工作后调整项目和保障措施。",
+        "sources": [
+          "S26",
+          "S27"
+        ]
+      },
+      "digital": {
+        "text": "该历史档案用于解释工程、规划与责任基础，不将2001年规划描述为AI治理。",
+        "sources": [
+          "S26"
+        ],
+        "kind": "analysis"
+      },
+      "conclusion": {
+        "text": "流域治理从一开始就包含工程以外的区域协调与制度安排；后来的数字平台是在这一基础上改变信息和行动方式。",
+        "sources": [
+          "S26",
+          "S27"
+        ],
+        "kind": "analysis"
+      },
+      "eventIds": [
+        "sanxia-plan",
+        "sanxia-revision"
+      ],
+      "actorIds": [
+        "regional-gov",
+        "water",
+        "housing",
+        "operators",
+        "public"
+      ],
+      "mediaIds": [
+        "qutang"
+      ],
+      "photoSourceIds": [],
+      "status": "基础档案",
+      "gaps": [
+        "分区项目实施与运营档案",
+        "授权建设历史影像",
+        "区域范围的精确GIS图层"
+      ]
+    }
+  ],
+  "events": [
+    {
+      "id": "tongbo-0",
+      "riverId": "tongbo",
+      "date": "2024.03.19 09:30",
+      "title": "上河坝断面氨氮、高锰酸盐指数异常",
+      "text": "上河坝断面氨氮、高锰酸盐指数异常，平台预警。",
+      "sources": [
+        "S01"
+      ],
+      "stage": "数字治水"
+    },
+    {
+      "id": "tongbo-1",
+      "riverId": "tongbo",
+      "date": "2024.03.19 11:30",
+      "title": "梁平现场排查",
+      "text": "梁平现场排查，大竹同步沿河排查。",
+      "sources": [
+        "S01"
+      ],
+      "stage": "数字治水"
+    },
+    {
+      "id": "tongbo-2",
+      "riverId": "tongbo",
+      "date": "2024.03.21",
+      "title": "水质达标",
+      "text": "水质达标，申请并获同意销号；报道概括全过程不到两天。",
+      "sources": [
+        "S01"
+      ],
+      "stage": "数字治水"
+    },
+    {
+      "id": "liangtan-0",
+      "riverId": "liangtan",
+      "date": "2017",
+      "title": "以河长制统筹全流域综合整治。",
+      "text": "以河长制统筹全流域综合整治。",
+      "sources": [
+        "S03"
+      ],
+      "stage": "责任治水"
+    },
+    {
+      "id": "liangtan-1",
+      "riverId": "liangtan",
+      "date": "2019.07",
+      "title": "管网排查、污水厂扩容与规划保障进入协同议程。",
+      "text": "管网排查、污水厂扩容与规划保障进入协同议程。",
+      "sources": [
+        "S04"
+      ],
+      "stage": "工程治水"
+    },
+    {
+      "id": "liangtan-2",
+      "riverId": "liangtan",
+      "date": "2026.05 报道",
+      "title": "记录设施建设、三区协同与智慧监管共同推进的长期变化。",
+      "text": "记录设施建设、三区协同与智慧监管共同推进的长期变化。",
+      "sources": [
+        "S03"
+      ],
+      "stage": "数字治水"
+    },
+    {
+      "id": "puhe-0",
+      "riverId": "puhe",
+      "date": "2025.08.30—09.01",
+      "title": "寨溪大桥断面溶解氧日均值连续异常。报道未提供浓度与异常方向。",
+      "text": "寨溪大桥断面溶解氧日均值连续异常。报道未提供浓度与异常方向。",
+      "sources": [
+        "S05"
+      ],
+      "stage": "数字治水"
+    },
+    {
+      "id": "puhe-1",
+      "riverId": "puhe",
+      "date": "随后（未公开时刻）",
+      "title": "模型识别两个疑似排污口、关联两家污水厂",
+      "text": "模型识别两个疑似排污口、关联两家污水厂，治理中心协调现场核实。",
+      "sources": [
+        "S05"
+      ],
+      "stage": "数字治水"
+    },
+    {
+      "id": "puhe-2",
+      "riverId": "puhe",
+      "date": "处置结果",
+      "title": "经水电站调度水质恢复；报道用“不到3天”概括处置",
+      "text": "经水电站调度水质恢复；报道用“不到3天”概括处置，非本原型测算。",
+      "sources": [
+        "S05"
+      ],
+      "stage": "数字治水"
+    },
+    {
+      "id": "longxi-plan",
+      "riverId": "longxi",
+      "date": "2017—2025 · 规划期",
+      "title": "三区县进入共同治理方案",
+      "text": "生态修复与治理试点方案统筹空间、产业和防洪工程。此处为方案期，不表示全部项目已经完成。",
+      "sources": [
+        "S14"
+      ],
+      "stage": "流域协同"
+    },
+    {
+      "id": "longxi-pipe",
+      "riverId": "longxi",
+      "date": "2022.04 · 报道回溯",
+      "title": "巡河发现管网老化",
+      "text": "高安食品工业园污水外溢经基层河长上报，河长办跟踪督办，要求园区更换老化管网。",
+      "sources": [
+        "S15"
+      ],
+      "stage": "责任治水"
+    },
+    {
+      "id": "daqingliu-talk",
+      "riverId": "daqingliu",
+      "date": "2024.12.05 · 报道",
+      "title": "三地联合协商",
+      "text": "安岳、东兴与荣昌的政协委员和政府部门代表交流水环境问题，签署联合协商备忘录。",
+      "sources": [
+        "S16"
+      ],
+      "stage": "流域协同"
+    },
+    {
+      "id": "daqingliu-law",
+      "riverId": "daqingliu",
+      "date": "2025.07.08 · 报道",
+      "title": "跨界执法与生态损害赔偿",
+      "text": "报道记录两地共同参与非法捕捞案件的生态环境损害赔偿磋商。该日期是报道日期，非案件发生时刻。",
+      "sources": [
+        "S17"
+      ],
+      "stage": "流域协同"
+    },
+    {
+      "id": "xiaoan-industry",
+      "riverId": "xiaoan",
+      "date": "2021 · 工作启动",
+      "title": "造纸产业污染整治",
+      "text": "铜梁从造纸产业切入，统筹城镇生活、工业和农村面源污染治理任务。",
+      "sources": [
+        "S19"
+      ],
+      "stage": "工程治水"
+    },
+    {
+      "id": "xiaoan-compensation",
+      "riverId": "xiaoan",
+      "date": "2025.05.29 · 报道",
+      "title": "上下游横向生态补偿",
+      "text": "双桥经开区与永川、铜梁、合川签订协议，明确职责和义务，以水质考核促进协作。",
+      "sources": [
+        "S20"
+      ],
+      "stage": "流域协同"
+    },
+    {
+      "id": "linjiang-plan",
+      "riverId": "linjiang",
+      "date": "2016.09.12",
+      "title": "达标整治方案获批",
+      "text": "市政府向永川、江津批复临江河水体达标整治方案。",
+      "sources": [
+        "S21"
+      ],
+      "stage": "工程治水"
+    },
+    {
+      "id": "linjiang-action",
+      "riverId": "linjiang",
+      "date": "2017",
+      "title": "“一号民生工程”启动",
+      "text": "永川成立流域综合治理指挥部，将设施整治与河段责任衔接。",
+      "sources": [
+        "S22"
+      ],
+      "stage": "责任治水"
+    },
+    {
+      "id": "linjiang-digital",
+      "riverId": "linjiang",
+      "date": "2023.03.22 · 报道",
+      "title": "智慧河长与网格队伍连接",
+      "text": "共享多部门数据，将巡护、河库管理等资源组织到一张图。",
+      "sources": [
+        "S23"
+      ],
+      "stage": "数字治水"
+    },
+    {
+      "id": "xinsheng-list",
+      "riverId": "xinsheng",
+      "date": "2020.08—09",
+      "title": "形成跨界问题清单",
+      "text": "联合摸排形成梁平19项、开江15项问题；9月7日印发联动督察工作方案。",
+      "sources": [
+        "S24",
+        "S25"
+      ],
+      "stage": "流域协同"
+    },
+    {
+      "id": "xinsheng-feedback",
+      "riverId": "xinsheng",
+      "date": "2022.07.04 · 答复",
+      "title": "答复确认整改进展",
+      "text": "部门答复记载34项问题已完成整改，联盟桥国考断面稳定保持Ⅲ类以上。此为该答复时点的口径。",
+      "sources": [
+        "S25"
+      ],
+      "stage": "流域协同"
+    },
+    {
+      "id": "longhe-alert",
+      "riverId": "longhe",
+      "date": "2024.11.12 · 报道",
+      "title": "一条预警触达两地与街道",
+      "text": "石柱、丰都相关生态环境人员及下路街道工作人员同时收到湖海场断面异常预警。报道未给出事件精确日期及完整结案过程。",
+      "sources": [
+        "S08"
+      ],
+      "stage": "数字治水"
+    },
+    {
+      "id": "sanxia-plan",
+      "riverId": "sanxia",
+      "date": "2001.11.19",
+      "title": "从库区向上游组织治理",
+      "text": "规划印发，要求各地区和部门制定实施计划。",
+      "sources": [
+        "S26"
+      ],
+      "stage": "工程治水"
+    },
+    {
+      "id": "sanxia-revision",
+      "riverId": "sanxia",
+      "date": "2008.01",
+      "title": "规划修订与项目调整",
+      "text": "总结前期实施情况，修订城镇污染处理、工业治理和保障措施。",
+      "sources": [
+        "S27"
+      ],
+      "stage": "工程治水"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S01",
+      "title": "“巴渝治水”经验在全国推广",
+      "publisher": "重庆市政府网 / 重庆日报",
+      "date": "2024-04-13",
+      "url": "https://www.cq.gov.cn/ywdt/jrcq/202404/t20240413_13128165.html",
+      "kind": "官方转载·事件报道"
+    },
+    {
+      "id": "S02",
+      "title": "铜钵河：美丽河湖优秀案例",
+      "publisher": "生态环境部",
+      "date": "2025-07-17",
+      "url": "https://www.mee.gov.cn/home/ztbd/2023/mlhh2/yxal3/cq/202507/t20250717_1123691.shtml",
+      "kind": "部门发布·案例总结"
+    },
+    {
+      "id": "S03",
+      "title": "十年攻坚 梁滩河“活”过来了",
+      "publisher": "重庆市政府网 / 重庆日报",
+      "date": "2026-05-06",
+      "url": "https://www.cq.gov.cn/zjcq/lszq/ltbsjtbwz/202605/t20260506_15650949.html",
+      "kind": "官方转载·长期回顾"
+    },
+    {
+      "id": "S04",
+      "title": "梁滩河沙坪坝段污水治理工作座谈会",
+      "publisher": "重庆市生态环境局",
+      "date": "2019-07-22",
+      "url": "https://sthjj.cq.gov.cn/ztzl_249/rdzl/zysthbdczqzxd/gzdt_38225/201907/t20190722_7036834.html",
+      "kind": "部门网站·工作报道"
+    },
+    {
+      "id": "S05",
+      "title": "“巴渝治水” 用AI+守护一江碧水",
+      "publisher": "重庆市政府网 / 重庆日报",
+      "date": "2025-10-30",
+      "url": "https://www.cq.gov.cn/zt/szzqjs/fngxnzl/sthj/wrfz/202510/t20251030_15126097.html",
+      "kind": "官方转载·蒲河与AI进展"
+    },
+    {
+      "id": "S06",
+      "title": "重庆举行全面推行河长制新闻发布会",
+      "publisher": "重庆市水利局",
+      "date": "2017-04-21",
+      "url": "https://slj.cq.gov.cn/ztzl_250/hzzjsst/hzdt/201704/t20170421_6079831.html",
+      "kind": "部门发布·制度"
+    },
+    {
+      "id": "S07",
+      "title": "三年发三“令”！深入打好碧水保卫战",
+      "publisher": "重庆市政府网",
+      "date": "2021-06-18",
+      "url": "https://wap.cq.gov.cn/zwgk/zfxxgkml/zcjd_120614/mtsj/202106/t20210618_9408329.html",
+      "kind": "官方解读·条例生效"
+    },
+    {
+      "id": "S08",
+      "title": "重庆以数字化赋能生态环境治理",
+      "publisher": "重庆市政府网 / 重庆日报",
+      "date": "2024-11-12",
+      "url": "https://www.cq.gov.cn/zwgk/zfxxgkml/zdlyxxgk/stbh/hjbh/202411/t20241112_13790773.html",
+      "kind": "官方转载·建设时间线"
+    },
+    {
+      "id": "S09",
+      "title": "2026年全市水利工作会议召开",
+      "publisher": "重庆市水利局",
+      "date": "2026-01-19",
+      "url": "https://slj.cq.gov.cn/sy_250/slyw/202601/t20260119_15332833.html",
+      "kind": "工作部署·非验收报告"
+    },
+    {
+      "id": "S10",
+      "title": "“十五五”美丽重庆建设规划解读新闻发布会",
+      "publisher": "重庆市政府网",
+      "date": "2026-09-02",
+      "url": "https://wap.cq.gov.cn/zwgk/zfxxgkml/zcjd_120614/jdfb/202609/t20260902_16023406.html",
+      "kind": "规划解读·迭代方向"
+    },
+    {
+      "id": "S11",
+      "title": "綦江自然地理",
+      "publisher": "重庆市綦江区政府",
+      "date": "访问于2026-09-05",
+      "url": "https://www.cqqj.gov.cn/zjqj_159/zrdl/",
+      "kind": "官方概况·空间关系"
+    },
+    {
+      "id": "S12",
+      "title": "綦江—万盛一体化发展规划",
+      "publisher": "重庆市政府办公厅",
+      "date": "2021-07-01",
+      "url": "https://wap.cq.gov.cn/zwgk/zfxxgkzl/fdzdgknr/ghxx/qygh/202107/t20210701_9444416.html",
+      "kind": "规划·联合巡河与设施共享"
+    },
+    {
+      "id": "S13",
+      "title": "DataV GeoAtlas 行政区边界",
+      "publisher": "阿里云 DataV",
+      "date": "下载于2026-09-05",
+      "url": "https://geo.datav.aliyun.com/areas_v3/bound/500000_full.json",
+      "kind": "公开空间数据·非现行区划认定"
+    },
+    {
+      "id": "S32",
+      "title": "关于市政协五届四次会议第0716号提案的复函",
+      "publisher": "重庆市水利局",
+      "date": "2021-04-10",
+      "url": "https://slj.cq.gov.cn/zwgk_250/zfxxgkml/yta/zxjybl/202104/t20210410_9119754.html",
+      "kind": "部门答复·条例通过与施行日期"
+    },
+    {
+      "id": "S14",
+      "title": "龙溪河流域生态修复治理建议办理答复",
+      "publisher": "重庆市农业农村委",
+      "date": "2020-05-07",
+      "url": "https://nyncw.cq.gov.cn/xxgk_161/zfxxgkml/jyta/202005/t20200507_7294406_wap.html",
+      "kind": "部门答复"
+    },
+    {
+      "id": "S15",
+      "title": "垫江龙溪河再现水清岸绿好风光",
+      "publisher": "重庆市政府网",
+      "date": "2022-05-20",
+      "url": "https://www.cq.gov.cn/zwgk/zfxxgkml/zdlyxxgk/stbh/hjbh/202205/t20220520_10739452.html",
+      "kind": "官方转载·事件报道"
+    },
+    {
+      "id": "S16",
+      "title": "川渝三区县大清流河流域水环境保护联合协商座谈会",
+      "publisher": "重庆市政府网",
+      "date": "2024-12-05",
+      "url": "https://www.cq.gov.cn/zt/cyscjjq/xtfz/zjsystpz/202412/t20241205_13864768.html",
+      "kind": "官方转载·联合协商"
+    },
+    {
+      "id": "S17",
+      "title": "川渝十四枚公章共治大清流河",
+      "publisher": "重庆市农业农村委",
+      "date": "2025-07-08",
+      "url": "https://nyncw.cq.gov.cn/zwxx_161/mtbb/202507/t20250708_14795549.html",
+      "kind": "官方转载·跨界治理"
+    },
+    {
+      "id": "S18",
+      "title": "小安溪",
+      "publisher": "重庆市水利局",
+      "date": "2017-08-03",
+      "url": "https://slj.cq.gov.cn/ztzl_250/hzzjsst/tzgg_24017/201708/t20170803_6080749.html",
+      "kind": "河流概况·历史区划口径"
+    },
+    {
+      "id": "S19",
+      "title": "铜梁：多措并举 严格落实“河长制”",
+      "publisher": "重庆市政府网",
+      "date": "2022-12-01",
+      "url": "https://www.cq.gov.cn/zwgk/zfxxgkml/zdlyxxgk/stbh/hjbh/202212/t20221201_11349311.html",
+      "kind": "官方转载·综合治理"
+    },
+    {
+      "id": "S20",
+      "title": "“九治”攻坚 推进重庆生态环境质量持续改善",
+      "publisher": "重庆市政府网",
+      "date": "2025-05-29",
+      "url": "https://wap.cq.gov.cn/zwgk/zfxxgkml/zdlyxxgk/stbh/hjbh/202505/t20250529_14669132.html",
+      "kind": "官方转载·生态补偿"
+    },
+    {
+      "id": "S21",
+      "title": "重庆市临江河水体达标整治方案的批复",
+      "publisher": "重庆市人民政府",
+      "date": "2016-09-12",
+      "url": "https://www.cq.gov.cn/zwgk/zfxxgkml/szfwj/qtgw/201609/t20160916_8613947.html",
+      "kind": "政府文件"
+    },
+    {
+      "id": "S22",
+      "title": "永川 治理一条河 提升一座城",
+      "publisher": "重庆市政府网",
+      "date": "2021-01-19",
+      "url": "https://www.cq.gov.cn/ywdt/zwhd/qxdt/202101/t20210119_8830789.html",
+      "kind": "官方转载·治理回顾"
+    },
+    {
+      "id": "S23",
+      "title": "永川 建设幸福河湖 映照美好生活",
+      "publisher": "重庆市政府网",
+      "date": "2023-03-22",
+      "url": "https://www.cq.gov.cn/ywdt/zwhd/qxdt/202303/t20230322_11794353.html",
+      "kind": "官方转载·智慧河长"
+    },
+    {
+      "id": "S24",
+      "title": "川渝在新盛河流域首创生态环保跨界联动督察机制",
+      "publisher": "重庆市生态环境局",
+      "date": "2020-11-12",
+      "url": "https://sthjj.cq.gov.cn/ztzl_249/rdzl/zysthbdczqzxd/gzdt_38225/202011/t20201112_8454517.html",
+      "kind": "部门发布·联动督察"
+    },
+    {
+      "id": "S25",
+      "title": "市五届人大五次会议第0466号建议办理答复",
+      "publisher": "重庆市生态环境局",
+      "date": "2022-07-04",
+      "url": "https://sthjj.cq.gov.cn/zwgk_249/zfxxgkml/jytabl/202207/t20220704_10882955.html",
+      "kind": "部门答复·跨界联治"
+    },
+    {
+      "id": "S26",
+      "title": "关于印发《三峡库区及其上游水污染防治规划》的通知",
+      "publisher": "国家环保总局（生态环境部网站）",
+      "date": "2001-11-19",
+      "url": "https://www.mee.gov.cn/gkml/zj/wj/200910/t20091022_172056.htm",
+      "kind": "政府文件·原始发布日期"
+    },
+    {
+      "id": "S27",
+      "title": "三峡库区及其上游水污染防治规划（修订本）",
+      "publisher": "环境保护部",
+      "date": "2008-01",
+      "url": "https://www.mee.gov.cn/gkml/zj/wj/200910/W020080203462094746002.pdf",
+      "kind": "规划原文"
+    },
+    {
+      "id": "S28",
+      "title": "关于全面推行河长制的意见",
+      "publisher": "中办、国办（北京市政府转载）",
+      "date": "2016-12-12",
+      "url": "https://www.beijing.gov.cn/gate/big5/www.beijing.gov.cn/zhengce/gwywj/201905/t20190522_59684.html",
+      "kind": "中央政策"
+    },
+    {
+      "id": "S29",
+      "title": "川渝河长制五周年合作成效新闻发布会",
+      "publisher": "重庆市水利局",
+      "date": "2025-05-09",
+      "url": "https://slj.cq.gov.cn/sy_250/slyw/202505/t20250509_14595656.html",
+      "kind": "部门发布·制度回顾"
+    },
+    {
+      "id": "S30",
+      "title": "“两江四岸”治理提升实施方案",
+      "publisher": "重庆市人民政府办公厅",
+      "date": "2018-12-17",
+      "url": "https://www.cq.gov.cn/zwgk/zfxxgkml/szfwj/xzgfxwj/szfbgt/201812/t20181217_8837671_app.html",
+      "kind": "政府文件"
+    },
+    {
+      "id": "S31",
+      "title": "市六届人大二次会议第0628号建议办理答复",
+      "publisher": "重庆市生态环境局",
+      "date": "2024-04-26",
+      "url": "https://sthjj.cq.gov.cn/zwgk_249/zfxxgkml/jytabl/202406/t20240617_13300164_wap.html",
+      "kind": "部门答复·三纵四横协同"
+    }
+  ],
+  "actors": [
+    {
+      "id": "lp-eco",
+      "name": "梁平生态环境部门",
+      "role": "接收异常与清单，组织现场排查，向大竹传递跨界线索，并申请反馈销号。",
+      "boundary": "辖区现场处置需要镇街和设施主管部门参与；大竹侧行动由对方组织。",
+      "sources": [
+        "S01"
+      ],
+      "kind": "fact"
+    },
+    {
+      "id": "dz-eco",
+      "name": "大竹生态环境部门",
+      "role": "收到跨界问题清单后组织沿河排查，推进养殖设施相关问题处置。",
+      "boundary": "跨省清单是协作机制，不能代替属地核查和责任认定。",
+      "sources": [
+        "S01"
+      ],
+      "kind": "fact"
+    },
+    {
+      "id": "cq-eco",
+      "name": "市生态环境局",
+      "role": "对铜钵河事件的水质稳定和下游影响复核，同意销号。",
+      "boundary": "销号来自复核与有权部门确认，不是模型自行作出行政决定。",
+      "sources": [
+        "S01"
+      ],
+      "kind": "fact"
+    },
+    {
+      "id": "housing",
+      "name": "住建与管网管理",
+      "role": "本案材料涉及管网排查、修复或处理设施建设，将治理线索落实到工程。",
+      "boundary": "职责按案例与设施权属划分；关系图不替代法定权责清单。",
+      "sources": [
+        "S01",
+        "S04"
+      ],
+      "kind": "analysis"
+    },
+    {
+      "id": "town",
+      "name": "乡镇、街道与网格",
+      "role": "在基层巡护、核实线索、联系相关单位并反馈现场情况。",
+      "boundary": "发现问题与行政执法不是同一权限；具体措施需相应主体组织。",
+      "sources": [
+        "S01",
+        "S05",
+        "S23"
+      ],
+      "kind": "analysis"
+    },
+    {
+      "id": "agriculture",
+      "name": "农业农村部门",
+      "role": "参与养殖相关治理或水生资源保护；大清流河报道中参与联合执法及赔偿磋商。",
+      "boundary": "图中概括不同案例角色，具体执法依据应回到案件材料。",
+      "sources": [
+        "S01",
+        "S17"
+      ],
+      "kind": "analysis"
+    },
+    {
+      "id": "river-chief",
+      "name": "河长与河长办",
+      "role": "统筹河流保护管理、协调跨部门问题，跟踪巡河线索与整改。",
+      "boundary": "河长统筹不取消各职能部门既有职责。",
+      "sources": [
+        "S06",
+        "S15"
+      ],
+      "kind": "analysis"
+    },
+    {
+      "id": "districts",
+      "name": "沿线区县政府",
+      "role": "将辖区设施、人员和治理项目纳入共同方案或责任安排。",
+      "boundary": "自然流域连续，行政管辖仍分区；需要协议、规划和协商连接。",
+      "sources": [
+        "S14",
+        "S20",
+        "S22"
+      ],
+      "kind": "analysis"
+    },
+    {
+      "id": "operators",
+      "name": "企业与设施运营者",
+      "role": "承担设施运行、生产管理或落实整改；在相关事项中配合排查。",
+      "boundary": "被列为疑似线索不等于已被认定违法，不能从关系图推定责任。",
+      "sources": [
+        "S05",
+        "S15",
+        "S19"
+      ],
+      "kind": "analysis"
+    },
+    {
+      "id": "public",
+      "name": "沿河居民与公众",
+      "role": "使用和观察河岸空间，参与巡护、反馈或监督治理效果。",
+      "boundary": "公众参与属于治理关系整理，不表示每个具体事件都有居民直接参与。",
+      "sources": [
+        "S15",
+        "S22"
+      ],
+      "kind": "analysis"
+    },
+    {
+      "id": "qj-center",
+      "name": "綦江区治理中心",
+      "role": "组织水利部门与基层治理中心、街道协同核查和行动。",
+      "boundary": "组织跨部门协同，现场处置仍需具备职责和资源的主体执行。",
+      "sources": [
+        "S05"
+      ],
+      "kind": "fact"
+    },
+    {
+      "id": "qj-eco",
+      "name": "綦江生态环境部门",
+      "role": "结合平台异常信息参与水环境问题核查和治理协同。",
+      "boundary": "模型的疑似排污口仍是待核实线索。",
+      "sources": [
+        "S05"
+      ],
+      "kind": "analysis"
+    },
+    {
+      "id": "water",
+      "name": "水利部门",
+      "role": "水资源、河湖与水工程相关工作；蒲河案例涉及水电站调度协同。",
+      "boundary": "调度的组织和执行需遵循既有管理职责，平台本身不是执法主体。",
+      "sources": [
+        "S05",
+        "S26"
+      ],
+      "kind": "analysis"
+    },
+    {
+      "id": "regional-gov",
+      "name": "跨区域政府",
+      "role": "通过共同规划、协商备忘录与联合治理连接区域行动。",
+      "boundary": "各方仍分别落实本行政区域和部门的实施任务。",
+      "sources": [
+        "S16",
+        "S26"
+      ],
+      "kind": "analysis"
+    },
+    {
+      "id": "justice",
+      "name": "检察与司法协作",
+      "role": "大清流河案例中，两地检察机关参与生态环境损害赔偿磋商。",
+      "boundary": "此处仅表达报道中的参与关系，不泛化为所有治理事项的审批权。",
+      "sources": [
+        "S17"
+      ],
+      "kind": "fact"
+    },
+    {
+      "id": "inspectors",
+      "name": "川渝环保督察机构",
+      "role": "联合发现问题、形成清单，联动督察与跟踪整改。",
+      "boundary": "联合机制连接两地监督工作，不合并行政管辖。",
+      "sources": [
+        "S24",
+        "S25"
+      ],
+      "kind": "fact"
+    },
+    {
+      "id": "kj-eco",
+      "name": "开江生态环境部门",
+      "role": "参与新盛河流域联合核查和属地问题整改。",
+      "boundary": "与梁平共同面对流域问题，分别落实属地任务。",
+      "sources": [
+        "S24"
+      ],
+      "kind": "fact"
+    },
+    {
+      "id": "sz-eco",
+      "name": "石柱生态环境部门",
+      "role": "收到龙河断面异常预警，关注水质异动。",
+      "boundary": "本轮公开材料未提供全部后续处置记录。",
+      "sources": [
+        "S08"
+      ],
+      "kind": "fact"
+    },
+    {
+      "id": "fd-eco",
+      "name": "丰都生态环境部门",
+      "role": "与石柱及基层工作人员同时接收龙河异常信息。",
+      "boundary": "预警触达不等同于已经完成处置销号。",
+      "sources": [
+        "S08"
+      ],
+      "kind": "fact"
+    }
+  ],
+  "policies": [
+    {
+      "id": "p2001",
+      "date": "2001.11",
+      "stage": "工程治水",
+      "title": "三峡库区及上游水污染防治规划",
+      "text": "规划经批准印发，要求各地区、部门制定实施计划。",
+      "ability": "将处理设施与上游污染治理组织到跨区域规划中。",
+      "riverIds": [
+        "sanxia"
+      ],
+      "sources": [
+        "S26"
+      ]
+    },
+    {
+      "id": "p2009",
+      "date": "2009",
+      "stage": "工程治水",
+      "title": "重点次级河流综合治理",
+      "text": "历史线索：渝府发〔2009〕38号及次级河流考核办法。当前未取得完整原始文件，数量、目标与实施结果暂不展示。",
+      "ability": "待核：从工程项目推进到流域治理考核的制度连接。",
+      "riverIds": [
+        "liangtan"
+      ],
+      "sources": [],
+      "pending": true
+    },
+    {
+      "id": "p2016",
+      "date": "2016.12",
+      "stage": "责任治水",
+      "title": "全国全面推行河长制",
+      "text": "中央印发意见，构建责任明确、协调有序的河湖管理保护机制。",
+      "ability": "通过责任体系连接多部门管理。",
+      "riverIds": [
+        "linjiang",
+        "liangtan"
+      ],
+      "sources": [
+        "S28"
+      ]
+    },
+    {
+      "id": "p2017",
+      "date": "2017.04",
+      "stage": "责任治水",
+      "title": "重庆全面推行河长制",
+      "text": "重庆召开全面推行河长制新闻发布会，公布组织体系与工作安排。",
+      "ability": "把河流分级分段责任纳入治理组织。",
+      "riverIds": [
+        "liangtan",
+        "longxi"
+      ],
+      "sources": [
+        "S06"
+      ]
+    },
+    {
+      "id": "p2020",
+      "date": "2020",
+      "stage": "流域协同",
+      "title": "川渝联防联控与跨界联动督察",
+      "text": "联合河长制合作逐步建立；新盛河联动督察形成两地问题清单。",
+      "ability": "跨省问题从各自处理转为共同发现、分别整改和反馈。",
+      "riverIds": [
+        "xinsheng",
+        "daqingliu"
+      ],
+      "sources": [
+        "S24",
+        "S29"
+      ]
+    },
+    {
+      "id": "p2021",
+      "date": "2020 / 2021",
+      "stage": "责任治水",
+      "title": "河长制条例：立法与施行",
+      "text": "2020年通过条例，2021年1月1日起施行。区分通过与生效时间，避免把两个节点混写。",
+      "ability": "为河长制持续履职提供法治保障。",
+      "riverIds": [
+        "longxi",
+        "liangtan"
+      ],
+      "sources": [
+        "S07",
+        "S32"
+      ]
+    },
+    {
+      "id": "p2023a",
+      "date": "2023.04",
+      "stage": "数字治水",
+      "title": "巴渝治水谋划开发",
+      "text": "市生态环境局依托一体化智能化公共数据平台谋划应用。",
+      "ability": "以统一平台组织分散信息。",
+      "riverIds": [
+        "tongbo"
+      ],
+      "sources": [
+        "S08"
+      ]
+    },
+    {
+      "id": "p2023b",
+      "date": "2023.12",
+      "stage": "数字治水",
+      "title": "巴渝治水试点上线",
+      "text": "2024年官方报道回溯记载2023年12月试点上线。",
+      "ability": "连接态势、问题、任务与协同处置。",
+      "riverIds": [
+        "tongbo",
+        "longhe"
+      ],
+      "sources": [
+        "S08"
+      ]
+    },
+    {
+      "id": "p2024",
+      "date": "2024.03",
+      "stage": "数字治水",
+      "title": "铜钵河异常触发跨省协同",
+      "text": "平台发现异常、形成线索，两地同步排查，完成处置与复核销号。",
+      "ability": "将同一个风险转为跨省可追踪的行动链。",
+      "riverIds": [
+        "tongbo"
+      ],
+      "sources": [
+        "S01"
+      ]
+    },
+    {
+      "id": "p2025",
+      "date": "2025.10 · 报道",
+      "stage": "智能智治",
+      "title": "AI预测与治理复盘",
+      "text": "公开报道AI智能体、水质预测和月度复盘，以及蒲河问题的跨部门处置。",
+      "ability": "从发现异常向辅助研判、反馈分析延伸。",
+      "riverIds": [
+        "puhe"
+      ],
+      "sources": [
+        "S05"
+      ]
+    },
+    {
+      "id": "p2026",
+      "date": "2026.01 / 09",
+      "stage": "智能智治",
+      "title": "AI+河库智管与应用迭代",
+      "text": "工作会议与规划解读提出深化AI融合、迭代应用。属于建设方向，非全域自主治理已实现的证明。",
+      "ability": "研究延伸：把经过验证的反馈纳入规划与资源配置。",
+      "riverIds": [
+        "puhe",
+        "longhe"
+      ],
+      "sources": [
+        "S09",
+        "S10"
+      ]
+    }
+  ],
+  "media": [
+    {
+      "id": "chongqing",
+      "src": "/media/chongqing.jpg",
+      "source": "Wikimedia Commons",
+      "caption": "重庆城市天际线，2016年8月。历史城市影像，不代表当前建设或水质状态。",
+      "credit": "A Chinese user",
+      "originalUrl": "https://commons.wikimedia.org/wiki/File:Skyline_of_Chongqing,_Aug_2016.jpg",
+      "license": "CC BY-SA 4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+      "date": "2016-08-13",
+      "scope": "重庆城市环境，仅用于首页与方法页",
+      "changes": "原图未改；页面按容器裁切显示，相关展示遵循原许可。"
+    },
+    {
+      "id": "confluence",
+      "src": "/media/confluence.jpg",
+      "source": "Wikimedia Commons / Copernicus Sentinel",
+      "caption": "嘉陵江与长江在重庆汇流。2017年7月23日卫星数据经处理的地理影像，不用于判断污染。",
+      "credit": "Pierre Markuse；Contains modified Copernicus Sentinel data [2017]",
+      "originalUrl": "https://commons.wikimedia.org/wiki/File:Confluence_of_the_Jialing_River_and_Yangtze_River_in_Chongqing,_China._2017-07-23_(39675532152).jpg",
+      "license": "CC BY 2.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/2.0/",
+      "date": "2017-07-23（数据）",
+      "scope": "重庆两江汇流地理背景，不是具体支流影像",
+      "changes": "保持原处理影像；仅容器裁切。"
+    },
+    {
+      "id": "qutang",
+      "src": "/media/qutang.jpg",
+      "source": "Wikimedia Commons",
+      "caption": "从白帝城眺望瞿塘峡，2009年12月。三峡库区历史实景。",
+      "credit": "Tan Wei Liang Byorn",
+      "originalUrl": "https://commons.wikimedia.org/wiki/File:Qutang_Gorge_on_Changjiang.jpg",
+      "license": "CC BY 3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "date": "2009-12-02",
+      "scope": "三峡库区区域档案",
+      "changes": "原图未改；页面裁切显示。"
+    }
+  ]
+}

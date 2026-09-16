@@ -1,0 +1,14 @@
+{
+  "downloadedAt": "2026-09-05",
+  "provider": "阿里云 DataV GeoAtlas",
+  "files": [
+    {"file":"chongqing.geojson","url":"https://geo.datav.aliyun.com/areas_v3/bound/500000_full.json"},
+    {"file":"sichuan.geojson","url":"https://geo.datav.aliyun.com/areas_v3/bound/510000_full.json"},
+    {"file":"dazhou.geojson","url":"https://geo.datav.aliyun.com/areas_v3/bound/511700_full.json"}
+  ],
+  "precision": "公开行政底图原始坐标；未独立校准；仅用于区域叙事",
+  "effectiveAdministrativeDate": "未独立核实，不将下载日当作区划有效日",
+  "caseMarkers": "区域示意入口，经纬度不代表河流监测站",
+  "eventDiagram": "SVG布局坐标，无真实经纬度含义",
+  "license": "返回数据未附明确再分发许可；保留来源，授权状态待确认"
+}

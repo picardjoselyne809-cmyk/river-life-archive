@@ -1,0 +1,64 @@
+
+> bayu-river-archive@0.1.0 build
+> node scripts/build.mjs
+
+Exported archive catalog: 10 dossiers
+
+  vinext build  (Vite 8.2.2)
+
+[1/5] analyze client references...
+transforming...
+✓ 267 modules transformed.
+rendering chunks...
+✓ built in 1.29s
+[2/5] analyze server references...
+transforming...
+✓ 293 modules transformed.
+rendering chunks...
+✓ built in 648ms
+[3/5] build rsc environment...
+transforming...
+✓ 258 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 1.07s
+[4/5] build client environment...
+transforming...
+✓ 2066 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 2.88s
+[5/5] build ssr environment...
+transforming...
+✓ 287 modules transformed.
+rendering chunks...
+computing gzip size...
+✓ built in 954ms
+[0m  Pre-rendering all routes (output: 'export')...
+[vinext] Production server for prerendering running at http://127.0.0.1:52876
+  Prerendered 18 routes (0 skipped).
+[vinext] Production server for prerendering running at http://127.0.0.1:52904
+  Discovered 17 CDN warmup path(s).
+[0m
+  Route (app)
+  ┌ ○ /          
+  ├ ○ /about     
+  ├ ○ /assistant 
+  ├ ○ /bayu      
+  ├ ○ /network   
+  ├ ○ /rivers    
+  ├ ƒ /rivers/:id
+  └ ○ /timeline  
+
+  ƒ Dynamic  ○ Static
+
+  ○ Routes marked static were confirmed by speculative prerender (attempted render
+    succeeded without dynamic API usage).
+
+  Build complete. Run `vinext start` to start the production server.
+
+npm notice
+npm notice New major version of npm available! 11.16.0 -> 12.0.2
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.0.2
+npm notice To update run: npm install -g npm@12.0.2
+npm notice
