@@ -1,0 +1,21 @@
+export type Actor={id:string;name:string;role:string;boundary:string;sources:string[];kind:'fact'|'analysis'};
+export const actors:Actor[]=[
+{id:'lp-eco',name:'梁平生态环境部门',role:'接收异常与清单，组织现场排查，向大竹传递跨界线索，并申请反馈销号。',boundary:'辖区现场处置需要镇街和设施主管部门参与；大竹侧行动由对方组织。',sources:['S01'],kind:'fact'},
+{id:'dz-eco',name:'大竹生态环境部门',role:'收到跨界问题清单后组织沿河排查，推进养殖设施相关问题处置。',boundary:'跨省清单是协作机制，不能代替属地核查和责任认定。',sources:['S01'],kind:'fact'},
+{id:'cq-eco',name:'市生态环境局',role:'对铜钵河事件的水质稳定和下游影响复核，同意销号。',boundary:'销号来自复核与有权部门确认，不是模型自行作出行政决定。',sources:['S01'],kind:'fact'},
+{id:'housing',name:'住建与管网管理',role:'本案材料涉及管网排查、修复或处理设施建设，将治理线索落实到工程。',boundary:'职责按案例与设施权属划分；关系图不替代法定权责清单。',sources:['S01','S04'],kind:'analysis'},
+{id:'town',name:'乡镇、街道与网格',role:'在基层巡护、核实线索、联系相关单位并反馈现场情况。',boundary:'发现问题与行政执法不是同一权限；具体措施需相应主体组织。',sources:['S01','S05','S23'],kind:'analysis'},
+{id:'agriculture',name:'农业农村部门',role:'参与养殖相关治理或水生资源保护；大清流河报道中参与联合执法及赔偿磋商。',boundary:'图中概括不同案例角色，具体执法依据应回到案件材料。',sources:['S01','S17'],kind:'analysis'},
+{id:'river-chief',name:'河长与河长办',role:'统筹河流保护管理、协调跨部门问题，跟踪巡河线索与整改。',boundary:'河长统筹不取消各职能部门既有职责。',sources:['S06','S15'],kind:'analysis'},
+{id:'districts',name:'沿线区县政府',role:'将辖区设施、人员和治理项目纳入共同方案或责任安排。',boundary:'自然流域连续，行政管辖仍分区；需要协议、规划和协商连接。',sources:['S14','S20','S22'],kind:'analysis'},
+{id:'operators',name:'企业与设施运营者',role:'承担设施运行、生产管理或落实整改；在相关事项中配合排查。',boundary:'被列为疑似线索不等于已被认定违法，不能从关系图推定责任。',sources:['S05','S15','S19'],kind:'analysis'},
+{id:'public',name:'沿河居民与公众',role:'使用和观察河岸空间，参与巡护、反馈或监督治理效果。',boundary:'公众参与属于治理关系整理，不表示每个具体事件都有居民直接参与。',sources:['S15','S22'],kind:'analysis'},
+{id:'qj-center',name:'綦江区治理中心',role:'组织水利部门与基层治理中心、街道协同核查和行动。',boundary:'组织跨部门协同，现场处置仍需具备职责和资源的主体执行。',sources:['S05'],kind:'fact'},
+{id:'qj-eco',name:'綦江生态环境部门',role:'结合平台异常信息参与水环境问题核查和治理协同。',boundary:'模型的疑似排污口仍是待核实线索。',sources:['S05'],kind:'analysis'},
+{id:'water',name:'水利部门',role:'水资源、河湖与水工程相关工作；蒲河案例涉及水电站调度协同。',boundary:'调度的组织和执行需遵循既有管理职责，平台本身不是执法主体。',sources:['S05','S26'],kind:'analysis'},
+{id:'regional-gov',name:'跨区域政府',role:'通过共同规划、协商备忘录与联合治理连接区域行动。',boundary:'各方仍分别落实本行政区域和部门的实施任务。',sources:['S16','S26'],kind:'analysis'},
+{id:'justice',name:'检察与司法协作',role:'大清流河案例中，两地检察机关参与生态环境损害赔偿磋商。',boundary:'此处仅表达报道中的参与关系，不泛化为所有治理事项的审批权。',sources:['S17'],kind:'fact'},
+{id:'inspectors',name:'川渝环保督察机构',role:'联合发现问题、形成清单，联动督察与跟踪整改。',boundary:'联合机制连接两地监督工作，不合并行政管辖。',sources:['S24','S25'],kind:'fact'},
+{id:'kj-eco',name:'开江生态环境部门',role:'参与新盛河流域联合核查和属地问题整改。',boundary:'与梁平共同面对流域问题，分别落实属地任务。',sources:['S24'],kind:'fact'},
+{id:'sz-eco',name:'石柱生态环境部门',role:'收到龙河断面异常预警，关注水质异动。',boundary:'本轮公开材料未提供全部后续处置记录。',sources:['S08'],kind:'fact'},
+{id:'fd-eco',name:'丰都生态环境部门',role:'与石柱及基层工作人员同时接收龙河异常信息。',boundary:'预警触达不等同于已经完成处置销号。',sources:['S08'],kind:'fact'}];

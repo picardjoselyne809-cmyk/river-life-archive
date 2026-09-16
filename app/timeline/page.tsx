@@ -1,0 +1,7 @@
+import Link from 'next/link';
+import {policies} from '@/data/policies';
+import {rivers} from '@/data/rivers';
+import {Refs} from '@/components/evidence';
+export const metadata={title:'重庆流域治理总时间线'};
+const eras=[['工程治水','约2000—2015'],['责任治水','2016—2020'],['流域协同','2017—2022'],['数字治水','2023—2024'],['智能智治','2025—2026']];
+export default function Timeline(){return <main id="main-content"><header className="page-intro"><p className="kicker">CHONGQING / 2001—2026</p><h1>重庆治水史：能力如何形成。</h1><p>从工程设施到责任制度，从跨界协商到数字协同。五个时期为研究分期，互有交叠；较晚发生的制度节点仍按治理主题归入对应栏目，不表示阶段已经结束。</p></header><div className="content-body policy-layout"><nav className="policy-era-nav" aria-label="治理历史阶段">{eras.map(([name,years],i)=><a key={name} href={'#era-'+i}>{name}<small>{years}</small></a>)}</nav><div>{eras.map(([name,years],i)=><section className="policy-era" key={name} id={'era-'+i}><p className="kicker">0{i+1} / {years} · 研究分期</p><h2>{name}</h2>{policies.filter(p=>p.stage===name).map((p,n)=><details className="policy-item" key={p.id} open={n===0}><summary><time>{p.date}</time><h3>{p.title}</h3></summary><div>{p.pending&&<p className="pending">资料整理中 / 原始文件待核</p>}<p>{p.text}<Refs ids={p.sources}/></p><p className="ability">治理能力变化 / 研究分析<br/>{p.ability}</p><div className="related-links">{p.riverIds.map(id=><Link key={id} href={'/rivers/'+id}>进入{rivers.find(r=>r.id===id)?.name} →</Link>)}</div></div></details>)}</section>)}</div></div></main>}

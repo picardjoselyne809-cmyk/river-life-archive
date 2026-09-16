@@ -1,0 +1,7 @@
+export type Media={id:string;src:string;source:string;caption:string;credit:string;originalUrl:string;license:string;licenseUrl:string;date:string;scope:string;changes:string};
+export const media:Media[]=[
+{id:'chongqing',src:'/media/chongqing.jpg',source:'Wikimedia Commons',caption:'重庆城市天际线，2016年8月。历史城市影像，不代表当前建设或水质状态。',credit:'A Chinese user',originalUrl:'https://commons.wikimedia.org/wiki/File:Skyline_of_Chongqing,_Aug_2016.jpg',license:'CC BY-SA 4.0',licenseUrl:'https://creativecommons.org/licenses/by-sa/4.0/',date:'2016-08-13',scope:'重庆城市环境，仅用于首页与方法页',changes:'原图未改；页面按容器裁切显示，相关展示遵循原许可。'},
+{id:'confluence',src:'/media/confluence.jpg',source:'Wikimedia Commons / Copernicus Sentinel',caption:'嘉陵江与长江在重庆汇流。2017年7月23日卫星数据经处理的地理影像，不用于判断污染。',credit:'Pierre Markuse；Contains modified Copernicus Sentinel data [2017]',originalUrl:'https://commons.wikimedia.org/wiki/File:Confluence_of_the_Jialing_River_and_Yangtze_River_in_Chongqing,_China._2017-07-23_(39675532152).jpg',license:'CC BY 2.0',licenseUrl:'https://creativecommons.org/licenses/by/2.0/',date:'2017-07-23（数据）',scope:'重庆两江汇流地理背景，不是具体支流影像',changes:'保持原处理影像；仅容器裁切。'},
+{id:'qutang',src:'/media/qutang.jpg',source:'Wikimedia Commons',caption:'从白帝城眺望瞿塘峡，2009年12月。三峡库区历史实景。',credit:'Tan Wei Liang Byorn',originalUrl:'https://commons.wikimedia.org/wiki/File:Qutang_Gorge_on_Changjiang.jpg',license:'CC BY 3.0',licenseUrl:'https://creativecommons.org/licenses/by/3.0/',date:'2009-12-02',scope:'三峡库区区域档案',changes:'原图未改；页面裁切显示。'}];
+
+
